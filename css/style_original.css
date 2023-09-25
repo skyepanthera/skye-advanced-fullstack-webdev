@@ -1,0 +1,293 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/NJ_bg-main.png");
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: round;
+}
+
+h3 {
+    margin: 0;
+    margin: 0 0 0.5rem;
+    color: #1e2c5a;
+    color: #1a2c67;
+    color: #232f58;
+}
+
+p {
+    margin-top: .5rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+ul {
+    margin: .375rem 0;
+    padding: 0 0 0 1rem;
+    padding: 0 0 0 1.5rem;
+    /* list-style: none; */
+}
+
+li {
+    font-size: 15.5px;
+}
+
+code {
+    font-size: 13.5px;
+    color: #2fff55;
+    color: #58bea9;
+    color: #6ed8c3;
+    color: #6ecfd8;
+    color: #6ec1d8;
+    color: #7ed0e7;
+    background-color: #303030;
+    padding: 0 5px 1px;
+    border-radius: 2px;
+    background-color: #8ca5bc;
+    background-color: #070707;
+    padding: 1px 6px 2px;
+    border-radius: 3px;
+}
+
+.body-container {
+    /* background-image: url("img/NJ_bg-main.png");
+    min-height: 100vh; */
+    padding: 2.25rem 0
+}
+
+.content-container {
+    max-width: 860px;
+    max-width: 800px;
+    max-width: 760px;
+    max-width: 680px;
+    max-width: 620px;
+    max-width: 560px;
+    max-width: 580px;
+    margin: auto;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(143 139 141 / 25%);
+    background-color: rgb(143 139 141 / 20%);
+    background-color: #e6e6e6;
+    background-color: #ececec;
+    background-color: #cae2f3;
+    background-color: #d3e6f3;
+    background-color: #e5f2fc;
+    background-color: #d1e9f7;
+    background-color: #e3edf5;
+    background-color: #ecf2f7;
+    background-color: #ecf2f7;
+    background-color: rgba(236, 242, 247, 0.9);
+    background-color: rgba(246, 250, 254, 0.9);
+    /* background-color: #ffffff; */
+    box-shadow: 0px 3px 40px #6c686a;
+    box-shadow: 0px 10px 40px #f7f3f2;
+    box-shadow: 0px 10px 40px #fffefe;
+    box-shadow: 0px 10px 50px #fffefe;
+    /* box-shadow: 0px 10px 30px rgba(117, 124, 131, .7); */
+    border-radius: 40px;
+    border-radius: 36px;
+    padding: 2.25rem 2.375rem;
+    padding: 1.75rem 2rem;
+    padding: 1.75rem 2.25rem;
+    padding: 1.625rem 2rem;
+    border: 1px solid black;
+    border: 1px solid #bcdde7;
+    border: 1px solid #9ab7c0;
+    border: 1px solid #9ab0c0;
+    border: 1px solid #8ea9bd;
+    border: 1px solid #a8bccb;
+    /* border: 1px solid #82a3bc; */
+    letter-spacing: .5px;
+    letter-spacing: .20px;
+    /* letter-spacing: .3px; */
+    line-height: 1.425;
+    line-height: 1.425;
+    font-size: 15.5px;
+    font-size: 15.25px;
+    font-size: 15px;
+    /* color: #202020; */
+    transition: all .3s ease;
+    transition: all .2s ease;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.nav-item {
+    padding: 8px 10px;
+}
+
+.content-wrapper:hover {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid black; */
+    border: 1px solid #343434;
+}
+
+.nj-logo {
+    width: 260px;
+    width: 180px;
+    display: block;
+    margin: 0 auto 1.5rem;
+}
+
+.haerin-chibi {
+    border-radius: 18px;
+    border-radius: 40px;
+    border-radius: 36px;
+    border-radius: 32px;
+    /* border-radius: 500px; */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px #9b9094;
+    box-shadow: 4px 4px 4px #9f9c9d;
+    box-shadow: 3px 3px 4px #8c8688;
+    box-shadow: 3px 3px 4px #807b7d;
+    box-shadow: 3px 3px 4px #6c686a;
+    width: 220px;
+    width: 200px;
+    width: 180px;
+    width: 160px;
+    /* opacity: .95; */
+    margin: auto;
+    display: block;
+    margin-bottom: 1.75rem;
+    margin-bottom: 2rem;
+    /* border: 2px solid lime; */
+    /* border: 2px solid #9bff9b; */
+    transition: all .2s ease;
+    /* transition: all .3s ease; */
+
+    border: 2px solid #84acc3;
+
+
+        /* border-width: 3px; */
+        border-color: #fec2d7;
+        border-color: #fdb6cf;
+        border-color: #ffaecb;
+        border-color: #639dc2;
+        border-color: #5c7798;
+        border-color: #678aad;
+        border-color: #709fc4;
+        border-color: #71aed1;
+        border-color: #96bdd4;
+        border-color: #84acc3;
+        padding: 6px;
+        padding: 5px;
+        /* padding: 10px; */
+        background-color: white;
+        background-color: black;
+        background-color: #a0c3d7;
+        background-color: #aecfe2;
+        background-color: #bddbed;
+        background-color: #cae2f1;
+        background-image: linear-gradient(0deg, #cae2f1, #fffaf5);
+        background-image: linear-gradient(0deg, #cae2f1, #f5efe9);
+}
+
+.haerin-chibi:hover {
+    /* border-width: 3px; */
+    /* border-color: #fec2d7;
+    border-color: #fdb6cf;
+    border-color: #ffaecb;
+    border-color: #639dc2;
+    border-color: #5c7798;
+    border-color: #678aad;
+    border-color: #709fc4;
+    border-color: #71aed1;
+    border-color: #96bdd4;
+    border-color: #84acc3; */
+    /* padding: 6px; */
+    /* padding: 10px; */
+    /* background-color: white;
+    background-color: black;
+    background-color: #a0c3d7;
+    background-color: #aecfe2;
+    background-color: #bddbed;
+    background-color: #cae2f1;
+    background-image: linear-gradient(0deg, #cae2f1, #fffaf5);
+    background-image: linear-gradient(0deg, #cae2f1, #f5efe9); */
+
+    background-image: linear-gradient(0deg, #f5efe9, #ffd6de);
+
+
+        padding: 8px;
+        border: 2px solid #ffd6de;
+        border: 2px solid #ffbed8;
+        border: 2px solid #ff9fc5;
+        border: 2px solid #df93b1;
+        border-radius: 100px;
+        /* box-shadow: 5px 5px 5px hsla(330, 2%, 42%, 0.9); */
+        /* box-shadow: 3px 6px 5px #6d696b; */
+        box-shadow: 3px 5px 4px #6c686a;
+}
+
+.credit {
+    text-align: center;
+    font-size: 15px;
+    font-size: 14.25px;
+    /* font-size: 14px; */
+    margin-top: 1.25rem;
+    margin-top: 1.5rem;
+    letter-spacing: .125px;
+}
+
+.css-ref-group {
+    margin-bottom: 1.25rem;
+}
+
+a {
+    color: blue;
+    color: hotpink;
+    color: #b65183;
+    color: #ca508d;
+    color: #40719c;
+    color: #406b9c;
+    color: #4a6baa;
+    color: #4a72aa;
+    color: #5385b8;
+    color: #5389b8;
+
+    color: #5183af;
+    color: #4a7ba5;
+    /* color: #498eb8; */
+    /* color: #4284ad; */
+    /* background-color: #b5d7e7;
+    color: black; */
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #509ccb; */
+    /* color: #4aa0d5; */
+    color: #3771b2;
+    color: #3777b2;
+    color: #5d9ccb;
+    color: #5490be;
+    color: #599bce;
+    color: #5492c1;
+    text-decoration: underline;
+}
+
+.space {
+    height: 10px;
+}

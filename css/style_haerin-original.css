@@ -1,0 +1,51 @@
+.haerin-chibi {
+    border-radius: 18px;
+    border-radius: 40px;
+    border-radius: 36px;
+    border-radius: 32px;
+    /* border-radius: 500px; */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px #9b9094;
+    box-shadow: 4px 4px 4px #9f9c9d;
+    box-shadow: 3px 3px 4px #8c8688;
+    box-shadow: 3px 3px 4px #807b7d;
+    box-shadow: 3px 3px 4px #6c686a;
+    width: 220px;
+    width: 200px;
+    width: 180px;
+    width: 160px;
+    /* opacity: .95; */
+    margin: auto;
+    display: block;
+    margin-bottom: 1.75rem;
+    margin-bottom: 2rem;
+    border: 2px solid lime;
+    border: 2px solid #9bff9b;
+    border: 2px solid #ffd6de;
+    transition: all .2s ease;
+    /* transition: all .3s ease; */
+}
+
+.haerin-chibi:hover {
+    /* border-width: 3px; */
+    border-color: #fec2d7;
+    border-color: #fdb6cf;
+    border-color: #ffaecb;
+    border-color: #639dc2;
+    border-color: #5c7798;
+    border-color: #678aad;
+    border-color: #709fc4;
+    border-color: #71aed1;
+    border-color: #96bdd4;
+    border-color: #84acc3;
+    padding: 6px;
+    /* padding: 10px; */
+    background-color: white;
+    background-color: black;
+    background-color: #a0c3d7;
+    background-color: #aecfe2;
+    background-color: #bddbed;
+    background-color: #cae2f1;
+    background-image: linear-gradient(0deg, #cae2f1, #fffaf5);
+    background-image: linear-gradient(0deg, #cae2f1, #f5efe9);
+}
